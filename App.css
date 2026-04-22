@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero-left {
+  width: 55%;
+}
+
+.hero-right {
+  width: 40%;
+  text-align: center;
+}
+
+.hero-right img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* TEXT */
+.tagline {
+  color: #ff5e57;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.description {
+  color: #555;
+}
+
+/* BUTTONS */
+.primary {
+  background: #ff5e57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.secondary {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  background: transparent;
+}
+
+/* PROJECTS */
+.container {
+  padding: 40px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
